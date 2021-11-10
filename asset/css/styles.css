@@ -265,26 +265,62 @@ ul.rb li .timestamp {
 
 .c {
     width: 100%;
+    animation: progress-c 5s forwards;
 }
 
 .cpp {
-    width: 75%;
+    width: 80%;
+    animation: progress-cpp 5s forwards;
 }
 
 .python {
-    width: 30%;
+    width: 40%;
+    animation: progress-python 5s forwards;
 }
 
 .html {
     width: 100%;
+    animation: progress-html 5s forwards;
 }
 
 .css {
-    width: 60%;
+    width: 70%;
+    animation: progress-css 5s forwards;
 }
 
 .js {
-    width: 40%;
+    width: 45%;
+    animation: progress-js 5s forwards;
+}
+
+@keyframes progress-c{
+    0%{ width: 0%;}
+    100%{width: 100%;}
+}
+
+@keyframes progress-cpp{
+    0%{ width: 0%;}
+    100%{width: 80%;}
+}
+
+@keyframes progress-python{
+    0%{ width: 0%;}
+    100%{width: 40%;}
+}
+
+@keyframes progress-html{
+    0%{ width: 0%;}
+    100%{width: 100%;}
+}
+
+@keyframes progress-css{
+    0%{ width: 0%;}
+    100%{width: 70%;}
+}
+
+@keyframes progress-js{
+    0%{ width: 0%;}
+    100%{width: 45%;}
 }
 
 .hobby {
